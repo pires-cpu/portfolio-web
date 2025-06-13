@@ -36,11 +36,20 @@ li{
     justify-content: space-between;
     
     }
-.caixaM{
-    padding: 600px;
+
+    .caixa1{
+        border: 5;
+        border-style: solid;
+        padding-right: 17px;
+        margin: 1px;
+        flex-direction: row;
+        display: flex;
+        width: 2000px;
+
+    }
     
 }
 
 
-}
+
 
