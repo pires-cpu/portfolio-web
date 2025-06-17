@@ -20,6 +20,7 @@ header {
         margin-top: 65px;
         margin-right: 300px;
         margin-left: 100px;
+        font-style: italic;
     }
 
     li {
@@ -39,12 +40,12 @@ header {
 .caixa1 {
     border: 5;
     border-style: solid;
-    padding-right: 20px;
+    padding-right: 10px;
     margin: 1px;
     flex-direction: row;
     display: flex;
     width: 1363px;
-
+    border-radius: 15px;
 
     }
 
@@ -56,6 +57,7 @@ header {
         flex-direction: center;
         display: flex;
         padding: 30px;
+        border-radius: 15px;
 
     }
 
@@ -66,9 +68,13 @@ justify-content: center;
         width: 50px;
         height: 50px;
     }
+    
     .logo{
-      display: flex;
-justify-content: center;
         width: 200px;
         height: 200px;  
+
+    }
+
+    body{
+        background: linear-gradient(red, rgb(255, 102, 0),rgb(255, 238, 0), rgb(255, 255, 110), rgb(255, 255, 255));
     }
